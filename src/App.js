@@ -5,8 +5,7 @@ function App() {
   const calling = () => {
     let myScript = "<script>alert('hello)</script>";
     myScript = myScript.replace("<script>", "");
-    myScript = myScript.replace("</script>", "");
-
+    
   };
 
   return (
